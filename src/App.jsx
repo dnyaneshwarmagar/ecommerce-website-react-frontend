@@ -1,12 +1,14 @@
-import Announcements from "./components/Announcements";
-import Slider from "./components/Slider";
 import Home from "./pages/Home";
+// import Login from "./pages/Login";
+
+
+
 
 const App = () => {
   return <div>
-    <Announcements/>
+    
     <Home />
-    <Slider />
+    
   </div>;
 };
 

@@ -51,6 +51,7 @@ flex:1;
 `
 const Logo = styled.h1`
     font-weight:bold;
+    
 `
 const Navbar = () => {
   return (
@@ -59,7 +60,7 @@ const Navbar = () => {
              <Left>
                  <Language>EN</Language>
                  <SearchConatiner>
-                     <Input />
+                     <Input style={{border:"none"}}/>
                      <Search style={{color:"grey", fontSize:"14px"}}/>
                  </SearchConatiner>
              </Left>

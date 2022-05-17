@@ -8,7 +8,7 @@ align-items: center;
 justify-content: center;
 font-weight: 500;
 `
-const Announcements
+const Announcement
  = () => {
   return (
     <Container>
@@ -17,4 +17,4 @@ const Announcements
   )
 }
 
-export default Announcements;
+export default Announcement;
